@@ -105,11 +105,35 @@
 		75DD4FE92574752B0048C06D /* FitNessTests */ = {
 			isa = PBXGroup;
 			children = (
+				75DD50042574D1F60048C06D /* Cases */,
 				75DD4FEC2574752B0048C06D /* Info.plist */,
-				75DD4FFC257475F60048C06D /* AppModelTests.swift */,
-				75DD50002574CE5E0048C06D /* StepCountControllerTests.swift */,
 			);
 			path = FitNessTests;
+			sourceTree = "<group>";
+		};
+		75DD50042574D1F60048C06D /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				75DD50052574D2020048C06D /* App Model */,
+				75DD50062574D20B0048C06D /* UILayer */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		75DD50052574D2020048C06D /* App Model */ = {
+			isa = PBXGroup;
+			children = (
+				75DD4FFC257475F60048C06D /* AppModelTests.swift */,
+			);
+			path = "App Model";
+			sourceTree = "<group>";
+		};
+		75DD50062574D20B0048C06D /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				75DD50002574CE5E0048C06D /* StepCountControllerTests.swift */,
+			);
+			path = UILayer;
 			sourceTree = "<group>";
 		};
 		D2A5F1F71F4A9143005CD714 = {
