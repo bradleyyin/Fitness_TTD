@@ -27,16 +27,15 @@
 /// THE SOFTWARE.
 import Foundation
 
-
-public class AppModel {
+class AppModel {
 
   static let instance = AppModel()
 
-  public var appState: AppState = .notStarted
+  var appState: AppState = .notStarted
 
-  public init() {}
+  init() {}
 
-  public func start() {
+  func start() {
     appState = .inProgress
   }
 

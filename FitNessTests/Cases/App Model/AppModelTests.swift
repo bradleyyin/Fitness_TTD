@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import FitNess
+@testable import FitNess
 
 class AppModelTests: XCTestCase {
   var sut: AppModel!
